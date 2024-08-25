@@ -1,7 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# ----Backend---
+# Python bytecode files
+backend/BlogDRF/__pycache__/
+backend/BlogDRF/**/*.py[cod]
+
+# SQLite database file
+db.sqlite3
+
+# ----Frontend---
+
 # dependencies
-/node_modules
+frontend/node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
