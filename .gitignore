@@ -6,7 +6,7 @@ backend/BlogDRF/__pycache__/
 backend/BlogDRF/**/*.py[cod]
 
 # SQLite database file
-db.sqlite3
+backend/db.sqlite3
 
 # ----Frontend---
 
@@ -20,8 +20,8 @@ frontend/node_modules
 /coverage
 
 # next.js
-/.next/
-/out/
+frontend/.next/
+frontend/out/
 
 # production
 /build
@@ -43,4 +43,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+frontend/next-env.d.ts
