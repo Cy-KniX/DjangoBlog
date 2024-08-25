@@ -4,6 +4,7 @@
 # Python bytecode files
 backend/BlogDRF/__pycache__/
 backend/BlogDRF/**/*.py[cod]
+/venv
 
 # SQLite database file
 backend/db.sqlite3
